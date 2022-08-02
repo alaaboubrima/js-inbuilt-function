@@ -117,3 +117,4 @@ const ratings = watchList.map(movie => ({"title": movie.Title, "rating": movie.i
 to assign a new array of objects. Each movie in the new array will have only a title key with 
 the name of the film, and a rating key with the IMDB rating. */
 
+console.log(ratings);
