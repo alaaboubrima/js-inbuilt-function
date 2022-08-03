@@ -113,5 +113,6 @@ const watchList = [
 
 
 const filteredList = (watchList.map(movie => ({title: movie.Title, rating: movie.imdbRating}))).filter(movie => movie.rating >= 8);
-
+/* The watchList array holds objects with information on several movies. Using map and filter on watchList 
+to assign a new array of objects where each movie with an imdb rating >= 8 will be displayed (title and rating only). */
 console.log(filteredList);
