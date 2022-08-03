@@ -114,3 +114,4 @@ const watchList = [
 
 const filteredList = (watchList.map(movie => ({title: movie.Title, rating: movie.imdbRating}))).filter(movie => movie.rating >= 8);
 
+console.log(filteredList);
